@@ -8,7 +8,7 @@
     - Wallmount
   components:
     - type: Sprite
-      sprite: _Triad/Structure/Furniture/shower.rsi
+      sprite: _EE/Structure/Furniture/shower.rsi
       drawdepth: WallMountedItems
       layers:
       - state: shower
@@ -19,20 +19,24 @@
     - type: Transform
       noRot: false
     - type: Clickable
+  # - type: Shower; Euphoria - Change showers to use item toggle
     - type: ItemToggle
       soundActivate:
-        path: /Audio/_Triad/Ambience/Objects/shower_enable.ogg
+        path: /Audio/_EE/Ambience/Objects/shower_enable.ogg
       soundDeactivate:
-        path: /Audio/_Triad/Ambience/Objects/shower_enable.ogg
+        path: /Audio/_EE/Ambience/Objects/shower_enable.ogg
+        predicted: false # Triad
     - type: ItemToggleActiveSound
       activeSound:
-        path: /Audio/_Triad/Ambience/Objects/shower_running.ogg
+        path: /Audio/_EE/Ambience/Objects/shower_running.ogg
     - type: UseDelay
       delay: 1.0
+#    - type: ItemToggleRandomToggle
+#      chance: 0.1 #Triad, disabled random turn on chance
     - type: Physics
       bodyType: Static
       canCollide: false
-    - type: InteractionThOutline
+    - type: InteractionOutline
     - type: Damageable
     - type: Construction
       graph: Shower
