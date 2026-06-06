@@ -24,7 +24,6 @@
         path: /Audio/_Triad/Ambience/Objects/shower_enable.ogg
       soundDeactivate:
         path: /Audio/_Triad/Ambience/Objects/shower_enable.ogg
-        predicted: false
     - type: ItemToggleActiveSound
       activeSound:
         path: /Audio/_Triad/Ambience/Objects/shower_running.ogg
