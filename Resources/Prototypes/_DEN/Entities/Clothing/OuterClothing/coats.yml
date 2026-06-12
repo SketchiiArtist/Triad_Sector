@@ -1,0 +1,63 @@
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatRedSpotsJacketLoose
+  name: red spots bomber jacket (loose)
+  description: A lightweight bomber jacket, worn low and loose, with spots on it to deter predators. Cute!
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_red_loose.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_red_loose.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatRedSpotsJacketLoose
+      amount: 1
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatRedSpotsJacket
+  name: red spots bomber jacket
+  description: A lightweight bomber jacket with spots on it to deter predators. Cute!
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_red.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_red.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatRedSpotsJacket
+      amount: 1
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatBlueSpotsJacketLoose
+  name: blue spots bomber jacket (loose)
+  description: A lightweight bomber jacket, worn low and loose, with spots on it to deter predators. Cute!
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_blue_loose.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_blue_loose.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatBlueSpotsJacketLoose
+      amount: 1
+
+- type: entity
+  parent: ClothingOuterStorageBase
+  id: ClothingOuterCoatBlueSpotsJacket
+  name: blue spots bomber jacket
+  description: A lightweight bomber jacket with spots on it to deter predators. Cute!
+  components:
+  - type: Sprite
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_blue.rsi
+  - type: Clothing
+    sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_blue.rsi
+  - type: Butcherable
+    butcheringType: Knife
+    spawned:
+    - id: ClothingOuterCoatBlueSpotsJacket
+      amount: 1

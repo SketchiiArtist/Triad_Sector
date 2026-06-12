@@ -207,6 +207,7 @@
   - ContractorClothingUniformJumpskirtYellowTurtleneckDress
   - ContractorClothingUniformJumpskirtYellowOldDress
   - ContractorClothingUniformJabroni
+  - StrainedShorts # Triad
 
   fallbacks:
   - ContractorClothingUniformJumpsuitColorGrey
@@ -370,6 +371,10 @@
   - ContractorClothingOuterWinterCoatPlaid
   - ContractorClothingOuterCoatBomber
   - ContractorClothingOuterCoatBomberPunkRed # Punkish (Static visuals)
+  - SpotsJacketBlue # Triad
+  - SpotsJacketLooseBlue # Triad
+  - SpotsJacketRed # Triad
+  - SpotsJacketLooseRed # Triad
   - ContractorClothingOuterCoatJacketLeather # Punkish (Static visuals)
   - ContractorClothingOuterCoatJacketBiker # Punkish (Static visuals)
   - ContractorClothingOuterCoatJacketJamrock # Punkish (Static visuals)
@@ -477,6 +482,7 @@
   - ContractorClothingShoesBootsCowboyWhite
   - ContractorClothingShoesSnakeskinBoots
   - ContractorClothingShoesHighheelBoots
+  - HighTops # Triad
   - ContractorClothingShoesBootsCowboyFancy
   - ContractorClothingShoesBootsWinterChiefEngineer
 #  - ContractorClothingShoesBootsWinterCMO # Temp removed for MOM. Will return if replaced.

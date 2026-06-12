@@ -1,0 +1,35 @@
+- type: loadout
+  id: SpotsJacketRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT2
+  price: 0
+  equipment:
+   outerClothing: ClothingOuterCoatRedSpotsJacket
+
+- type: loadout
+  id: SpotsJacketLooseRed
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT2
+  price: 0
+  equipment:
+   outerClothing: ClothingOuterCoatRedSpotsJacketLoose
+
+- type: loadout
+  id: SpotsJacketBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT2
+  price: 0
+  equipment:
+   outerClothing: ClothingOuterCoatBlueSpotsJacket
+
+- type: loadout
+  id: SpotsJacketLooseBlue
+  effects:
+  - !type:GroupLoadoutEffect
+    proto: ContractorT2
+  price: 0
+  equipment:
+   outerClothing: ClothingOuterCoatBlueSpotsJacketLoose
