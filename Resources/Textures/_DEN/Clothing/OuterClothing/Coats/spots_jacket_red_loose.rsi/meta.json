@@ -8,18 +8,18 @@
   },
   "states": [
     {
-      "name": "equipped-OUTERCLOTHING",
+      "name": "folded-equipped-OUTERCLOTHING",
       "directions": 4
     },
     {
-      "name": "icon"
+      "name": "folded-icon"
     },
     {
-      "name": "inhand-left",
+      "name": "folded-inhand-left",
       "directions": 4
     },
     {
-      "name": "inhand-right",
+      "name": "folded-inhand-right",
       "directions": 4
     }
   ]
