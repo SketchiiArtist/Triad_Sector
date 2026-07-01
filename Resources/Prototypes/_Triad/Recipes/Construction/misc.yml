@@ -1,0 +1,12 @@
+- type: construction
+  name: envelope
+  id: Envelope
+  description: An envelope, for sending birthday money.
+  graph: PaperEnvelopeGraph
+  startNode: start
+  targetNode: EnvelopeNode
+  category: construction-category-misc
+  icon:
+    sprite: Objects/Misc/bureaucracy.rsi
+    state: envelope_closed
+  objectType: Item

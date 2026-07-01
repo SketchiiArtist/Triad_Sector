@@ -1,0 +1,13 @@
+- type: constructionGraph
+  id: PaperEnvelopeGraph
+  start: start
+  graph:
+    - node: start
+      edges:
+        - to: EnvelopeNode
+          steps:
+            - material: Paper
+              amount: 1
+              doAfter: 1
+    - node: EnvelopeNode
+      entity: Envelope

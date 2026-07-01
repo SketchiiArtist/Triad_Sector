@@ -98,6 +98,9 @@
         reagents:
         - ReagentId: Fiber
           Quantity: 1
+  - type: SliceableFood # Triad
+    count: 2
+    slice: NFBusinessCardBlank
 
 - type: entity
   name: paper scrap
@@ -734,3 +737,6 @@
       - !type:EmptyAllContainersBehaviour
       - !type:DoActsBehavior
         acts: [ "Destruction" ]
+  - type: Construction # Triad
+    graph: PaperEnvelopeGraph
+    node: start
