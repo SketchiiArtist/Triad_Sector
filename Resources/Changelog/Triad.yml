@@ -1939,3 +1939,123 @@ Entries:
   id: 2329
   time: '2026-06-23T16:25:03.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/255
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed Radiation Sources not updating to their parent grids. You should
+        no longer experience patches of radiation, or radiation coming from your
+        generators being non-existent.
+  id: 2330
+  time: '2026-06-24T01:41:27.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/257
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Gas deposit scanner now has a range of 64 tiles, from 20.
+  id: 2331
+  time: '2026-06-25T21:20:22.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/262
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added Bunk beds as constructible objects. You can use a crowbar on bunk
+        beds to change their orientation now.
+    - type: Tweak
+      message: >-
+        Bunk beds offset you correctly, making it so two spacemen laying on a
+        bunk bed do not looked stacked on top of eachother, but rather on the
+        correct mattress.
+  id: 2332
+  time: '2026-06-25T21:20:34.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/263
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: >-
+        Fixed a bug in Lidgren.Network HandleReleasedFragment that could cause
+        out of memory errors.
+  id: 2333
+  time: '2026-06-25T21:22:28.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/264
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Comas and apostrophes can now be used in character names
+  id: 2334
+  time: '2026-06-25T21:27:14.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/260
+- author: DDrakov
+  changes:
+    - type: Fix
+      message: Fix engine again to 277.2.1
+  id: 2335
+  time: '2026-06-25T22:04:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/265
+- author: Wuffindy
+  changes:
+    - type: Tweak
+      message: >-
+        Few ambient that ends abruptly or unnaturally has been edited to have
+        smoother fade out ending
+  id: 2336
+  time: '2026-06-27T08:53:26.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/268
+- author: Stedar111
+  changes:
+    - type: Add
+      message: Added HZD Stiletto, a researchable handgun!
+  id: 2337
+  time: '2026-06-27T09:28:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/233
+- author: Eillyrea
+  changes:
+    - type: Remove
+      message: 'Ghost Roles: PDA and Baby Dragon due to rule breach potential'
+  id: 2338
+  time: '2026-06-28T04:18:35.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/269
+- author: Dimasw99
+  changes:
+    - type: Add
+      message: TEG now shows max power output
+  id: 2339
+  time: '2026-06-30T00:32:37.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/271
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed the HZD Squire and HZD Stiletto not having a do-after for toggling
+        their attachments.
+    - type: Tweak
+      message: Made the Stiletto have a 1.5 second do-after, from 0.5 seconds.
+    - type: Tweak
+      message: >-
+        The HZD Squire has less angle decay while the stock is folded, make it
+        slightly harder to control unfolded.
+  id: 2340
+  time: '2026-06-30T01:47:19.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/272
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Fire axe cabinets now persist their contents on save
+  id: 2341
+  time: '2026-06-30T01:53:31.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/273
+- author: IngvarJackal
+  changes:
+    - type: Tweak
+      message: Sinks and drains are moveable
+  id: 2342
+  time: '2026-06-30T06:15:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/151
+- author: Wuffindy
+  changes:
+    - type: Fix
+      message: Fixed Hunger and Thirst misprediction
+  id: 2343
+  time: '2026-07-01T12:14:01.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/275
