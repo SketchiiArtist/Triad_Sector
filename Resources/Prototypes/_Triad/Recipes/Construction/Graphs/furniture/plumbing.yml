@@ -14,8 +14,6 @@
               amount: 3
             - material: MetalRod
               amount: 4
-            - material: Bluespace
-              amount: 1
               doAfter: 3
     - node: finish
       entity: FloorDrain
