@@ -2491,3 +2491,167 @@ Entries:
   id: 2386
   time: '2026-07-11T16:35:57.0000000+00:00'
   url: https://github.com/Triad-Sector/Triad_Sector/pull/329
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: ToggleNetworkLinks Command to help with mappping
+  id: 2387
+  time: '2026-07-11T22:05:23.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/335
+- author: DDrakov
+  changes:
+    - type: Add
+      message: Added Designated Ship ID Framework and it's assets
+  id: 2388
+  time: '2026-07-12T13:17:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/345
+- author: NEWSUI
+  changes:
+    - type: Add
+      message: NSC Horizon Cargo Freighter.
+  id: 2389
+  time: '2026-07-13T08:22:10.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/308
+- author: Eillyrea
+  changes:
+    - type: Add
+      message: >-
+        New spawn location (Dorms) to Venmar, instrument vends, MNK vends, an
+        outhouse, small QOL changes
+  id: 2390
+  time: '2026-07-13T16:17:28.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/349
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: >-
+        NVGs have been changed. Being in high-illumination areas will be harder
+        to see in with NVGs. They have a nice green filter now, as well.
+  id: 2391
+  time: '2026-07-13T18:23:08.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/350
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Mercenary fabricators now have the following items available roundstart:
+        disablers, disabler SMGs, and stun batons.
+  id: 2392
+  time: '2026-07-13T21:47:14.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/336
+- author: HameyTychol
+  changes:
+    - type: Fix
+      message: Avalis should be able to get drunk now!
+  id: 2393
+  time: '2026-07-13T21:49:30.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/316
+- author: Minerva
+  changes:
+    - type: Tweak
+      message: >-
+        Marking points have been increased for all species, with a few
+        exclusions for categories. Have fun!
+  id: 2394
+  time: '2026-07-13T22:20:46.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/348
+- author: TheRealMasterChief117
+  changes:
+    - type: Tweak
+      message: Warden now requires 20 hours of TDF time, rather than 25.
+    - type: Tweak
+      message: >-
+        Loosened patrol team leader requirements, now requires 15 hours of TDF
+        and 30 hours of overall playtime.
+  id: 2395
+  time: '2026-07-13T22:22:39.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/351
+- author: Fasuh
+  changes:
+    - type: Add
+      message: >-
+        Added Shadekin; A species of 4 eared felines with bright, monocolored
+        eyes. They may or may not be from an adjacent plane and are drawn to
+        realspace and especially anomalous zones (i.e. the Monolith) to sate
+        their own curiosity. Think kind of like Vortigaunts. They are hemophilic
+        and due to sheer complexity of their own bloods composition have issues
+        regenerating it (170% more bleed and 1/4th of normal blood regen). They
+        take more damage from the common damage types Radiation, Shock and Heat
+        but less from cold and the rare cellular. Their hyper-evolved eyes grant
+        them intrinsic nightvision if unobstructed by flash protective gear. Any
+        sort of flashes last longer and are more intense. The guidebook entry
+        provides more details on them and their lore.
+  id: 2396
+  time: '2026-07-13T22:45:39.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/96
+- author: pandoraberry
+  changes:
+    - type: Add
+      message: >-
+        Added new Slime Person customization, including new chest, head, tail
+        and snout markings
+    - type: Tweak
+      message: Slimes can now use compatible Reptilian, Vulpkanin, and Tajaran markings
+  id: 2397
+  time: '2026-07-14T00:04:13.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/342
+- author: SleepyCheesehead
+  changes:
+    - type: Add
+      message: New TDF medical ship, Mercy
+  id: 2398
+  time: '2026-07-14T06:17:24.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/344
+- author: satirically
+  changes:
+    - type: Add
+      message: Nosske-Eien is starting to make a presence again.
+  id: 2399
+  time: '2026-07-14T14:34:05.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/354
+- author: Eillyrea
+  changes:
+    - type: Tweak
+      message: Auric to version 1.2
+    - type: Fix
+      message: Ivy burning to death on Venmar
+  id: 2400
+  time: '2026-07-14T15:21:56.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/357
+- author: gaywolfgirl6
+  changes:
+    - type: Tweak
+      message: TDF Ships, Folder Structure.
+  id: 2401
+  time: '2026-07-14T16:23:02.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/358
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed station records computer filters causing your ship to be unable to
+        be saved.
+  id: 2402
+  time: '2026-07-14T19:58:50.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/361
+- author: TheRealMasterChief117
+  changes:
+    - type: Add
+      message: >-
+        Added night vision options under the accessibility tab. You can now
+        change the color of the night vision tint.
+    - type: Tweak
+      message: >-
+        Made tajaran night vision grey, and removed the circle radius around the
+        screen.
+    - type: Tweak
+      message: >-
+        Made shadekin vision slightly brighter, removed the circle radius around
+        the screen.
+    - type: Remove
+      message: Removed the stupid ass night vision blur.
+    - type: Add
+      message: Added back the sound for toggling Night vision goggles.
+  id: 2403
+  time: '2026-07-14T22:46:18.0000000+00:00'
+  url: https://github.com/Triad-Sector/Triad_Sector/pull/359
