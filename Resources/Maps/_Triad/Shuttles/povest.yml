@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 03:16:16
-  entityCount: 683
+  time: 07/15/2026 20:16:45
+  entityCount: 697
 maps: []
 grids:
 - 2
@@ -91,10 +91,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Kudzu: []
-        MetalFoam: []
         Puddle: []
+        MetalFoam: []
         Smoke: []
+        Kudzu: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -1560,12 +1560,7 @@ entities:
   - uid: 657
     components:
     - type: Transform
-      pos: -17.5,-0.5
-      parent: 2
-  - uid: 658
-    components:
-    - type: Transform
-      pos: -26.5,-0.5
+      pos: -15.5,0.5
       parent: 2
   - uid: 659
     components:
@@ -1616,6 +1611,46 @@ entities:
     components:
     - type: Transform
       pos: -16.5,11.5
+      parent: 2
+  - uid: 688
+    components:
+    - type: Transform
+      pos: -18.5,-0.5
+      parent: 2
+  - uid: 689
+    components:
+    - type: Transform
+      pos: -18.5,-1.5
+      parent: 2
+  - uid: 690
+    components:
+    - type: Transform
+      pos: -25.5,-1.5
+      parent: 2
+  - uid: 691
+    components:
+    - type: Transform
+      pos: -25.5,-0.5
+      parent: 2
+  - uid: 692
+    components:
+    - type: Transform
+      pos: -28.5,0.5
+      parent: 2
+  - uid: 693
+    components:
+    - type: Transform
+      pos: -29.5,0.5
+      parent: 2
+  - uid: 694
+    components:
+    - type: Transform
+      pos: -14.5,0.5
+      parent: 2
+  - uid: 695
+    components:
+    - type: Transform
+      pos: -22.5,-2.5
       parent: 2
 - proto: CableHV
   entities:
@@ -2001,6 +2036,18 @@ entities:
       powerLoad: 5
     - type: Battery
       startingCharge: 0
+- proto: ComputerWallmountWithdrawBankATM
+  entities:
+  - uid: 454
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,3.5
+      parent: 2
+    - type: ApcPowerReceiver
+      powerLoad: 5
+    - type: Battery
+      startingCharge: 0
 - proto: ConveyorBelt
   entities:
   - uid: 392
@@ -2209,6 +2256,12 @@ entities:
     - type: Transform
       rot: 1.5707963267948966 rad
       pos: -16.5,9.5
+      parent: 2
+  - uid: 658
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,6.5
       parent: 2
 - proto: DisposalTrunk
   entities:
@@ -3563,10 +3616,9 @@ entities:
       parent: 2
 - proto: Mirror
   entities:
-  - uid: 673
+  - uid: 696
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -16.5,10.5
       parent: 2
 - proto: Napkin
@@ -3634,7 +3686,7 @@ entities:
       parent: 2
 - proto: PortableGeneratorSuperPacmanShuttle
   entities:
-  - uid: 454
+  - uid: 673
     components:
     - type: Transform
       pos: -27.5,9.5
@@ -4592,6 +4644,30 @@ entities:
     - type: Transform
       pos: -19.5,18.5
       parent: 2
+  - uid: 684
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -25.5,-2.5
+      parent: 2
+  - uid: 685
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -24.5,-2.5
+      parent: 2
+  - uid: 686
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -18.5,-2.5
+      parent: 2
+  - uid: 687
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -19.5,-2.5
+      parent: 2
 - proto: ToiletDirtyWater
   entities:
   - uid: 86
@@ -5132,6 +5208,14 @@ entities:
     components:
     - type: Transform
       pos: -29.5,13.5
+      parent: 2
+- proto: WallWeaponCapacitorRechargerOmnidirectional
+  entities:
+  - uid: 697
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,5.5
       parent: 2
 - proto: WarpPoint
   entities:
