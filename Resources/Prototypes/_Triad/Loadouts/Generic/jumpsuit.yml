@@ -1,5 +1,5 @@
 - type: loadout
   id: StrainedShorts
-  price: 0 # Mono
+  price: 0 # Triad
   equipment:
     jumpsuit: ClothingUniformStrainedShorts
