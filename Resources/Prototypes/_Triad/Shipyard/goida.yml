@@ -10,7 +10,7 @@
   id: Goida
   parent: BaseVessel
   name: PDM Goida
-  description: A medium sized armored science shuttle. What once was a strong combat vessel has now been refitted for recovering lost technologies
+  description: A medium sized armored science shuttle. What once was a strong combat vessel has now been refitted for recovering lost technologies.
   price: 78000
   category: Medium
   group: Shipyard
@@ -31,7 +31,7 @@
       stationProto: StandardFrontierVessel
       components:
         - type: StationNameSetup
-          mapNameTemplate: 'Goida PDM{1}'
+          mapNameTemplate: 'Goida CIV{1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
