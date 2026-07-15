@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 20:17:44
-  entityCount: 208
+  time: 07/15/2026 20:34:56
+  entityCount: 210
 maps: []
 grids:
 - 2
@@ -70,10 +70,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Puddle: []
-        MetalFoam: []
         Smoke: []
+        Puddle: []
         Kudzu: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -690,6 +690,22 @@ entities:
     components:
     - type: Transform
       pos: -1.5,1.5
+      parent: 2
+- proto: DefibrillatorCabinetFilled
+  entities:
+  - uid: 209
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -0.5,-0.5
+      parent: 2
+- proto: ExtinguisherCabinetFilled
+  entities:
+  - uid: 210
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -2.5,-3.5
       parent: 2
 - proto: FaxMachineShip
   entities:
