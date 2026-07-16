@@ -4,7 +4,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 20:16:12
+  time: 07/16/2026 19:40:45
   entityCount: 153
 maps: []
 grids:
@@ -66,10 +66,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Puddle: []
-        MetalFoam: []
         Smoke: []
         Kudzu: []
+        Puddle: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -574,6 +574,17 @@ entities:
     - type: Transform
       pos: -0.5,6.5
       parent: 1
+    - type: DeviceLinkSource
+      linkedPorts:
+        149:
+        - - device-button-1
+          - Toggle
+        148:
+        - - device-button-1
+          - Toggle
+        150:
+        - - device-button-1
+          - Toggle
     - type: ApcPowerReceiver
       powerLoad: 5
     - type: Battery
@@ -911,6 +922,8 @@ entities:
     - type: Transform
       pos: 0.5,5.5
       parent: 1
+    - type: FuelGenerator
+      targetPower: 23000
 - proto: Poweredlight
   entities:
   - uid: 106

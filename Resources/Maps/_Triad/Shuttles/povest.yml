@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 20:16:45
-  entityCount: 697
+  time: 07/16/2026 19:41:45
+  entityCount: 718
 maps: []
 grids:
 - 2
@@ -91,10 +91,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Puddle: []
-        MetalFoam: []
         Smoke: []
         Kudzu: []
+        Puddle: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -1108,6 +1108,30 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -20.5,18.5
+      parent: 2
+- proto: BenchSteelWhiteLeft
+  entities:
+  - uid: 708
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -20.5,6.5
+      parent: 2
+- proto: BenchSteelWhiteMiddle
+  entities:
+  - uid: 709
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -20.5,5.5
+      parent: 2
+- proto: BenchSteelWhiteRight
+  entities:
+  - uid: 710
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -20.5,4.5
       parent: 2
 - proto: BookRandomStory
   entities:
@@ -2276,6 +2300,18 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -15.5,9.5
+      parent: 2
+  - uid: 699
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -19.5,16.5
+      parent: 2
+  - uid: 700
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -23.5,2.5
       parent: 2
 - proto: DisposalUnit
   entities:
@@ -3676,6 +3712,20 @@ entities:
       rot: -1.5707963267948966 rad
       pos: -17.56119,5.683413
       parent: 2
+- proto: PaperOffice
+  entities:
+  - uid: 717
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -20.088116,13.769821
+      parent: 2
+  - uid: 718
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -19.994366,13.68643
+      parent: 2
 - proto: Pen
   entities:
   - uid: 48
@@ -3690,6 +3740,41 @@ entities:
     components:
     - type: Transform
       pos: -27.5,9.5
+      parent: 2
+- proto: PottedPlant14
+  entities:
+  - uid: 715
+    components:
+    - type: Transform
+      pos: -23.815662,0.90463656
+      parent: 2
+- proto: PottedPlant16
+  entities:
+  - uid: 714
+    components:
+    - type: Transform
+      pos: -18.242744,10.443725
+      parent: 2
+- proto: PottedPlant22
+  entities:
+  - uid: 713
+    components:
+    - type: Transform
+      pos: -18.714815,16.252684
+      parent: 2
+- proto: PottedPlant3
+  entities:
+  - uid: 712
+    components:
+    - type: Transform
+      pos: -20.5,2.5
+      parent: 2
+- proto: PottedPlant7
+  entities:
+  - uid: 716
+    components:
+    - type: Transform
+      pos: -20.153671,0.8455206
       parent: 2
 - proto: Poweredlight
   entities:
@@ -3971,6 +4056,53 @@ entities:
     components:
     - type: Transform
       pos: -28.5,6.5
+      parent: 2
+  - uid: 698
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -27.5,2.5
+      parent: 2
+  - uid: 701
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -25.5,-2.5
+      parent: 2
+  - uid: 702
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -18.5,-2.5
+      parent: 2
+  - uid: 703
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -27.5,3.5
+      parent: 2
+  - uid: 704
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: -19.5,18.5
+      parent: 2
+  - uid: 705
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -22.5,18.5
+      parent: 2
+  - uid: 706
+    components:
+    - type: Transform
+      rot: 3.141592653589793 rad
+      pos: -14.5,13.5
+      parent: 2
+  - uid: 707
+    components:
+    - type: Transform
+      pos: -14.5,11.5
       parent: 2
 - proto: RandomSpawner
   entities:
@@ -4391,6 +4523,18 @@ entities:
         206:
         - - Pressed
           - Toggle
+        684:
+        - - Pressed
+          - Toggle
+        685:
+        - - Pressed
+          - Toggle
+        687:
+        - - Pressed
+          - Toggle
+        686:
+        - - Pressed
+          - Toggle
   - uid: 682
     components:
     - type: Transform
@@ -4439,6 +4583,14 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -24.5,1.5
+      parent: 2
+- proto: SignNosmoking
+  entities:
+  - uid: 711
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: -24.5,3.5
       parent: 2
 - proto: SignRadiation
   entities:

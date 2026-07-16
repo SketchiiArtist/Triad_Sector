@@ -4,8 +4,8 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 20:34:56
-  entityCount: 210
+  time: 07/16/2026 19:43:14
+  entityCount: 209
 maps: []
 grids:
 - 2
@@ -71,8 +71,8 @@ entities:
     - type: SpreaderGrid
       spreadQueues:
         Smoke: []
-        Puddle: []
         Kudzu: []
+        Puddle: []
         MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
@@ -714,13 +714,6 @@ entities:
     - type: Transform
       pos: 2.5,-1.5
       parent: 2
-- proto: filingCabinetDrawer
-  entities:
-  - uid: 208
-    components:
-    - type: Transform
-      pos: 2.6807742,-3.1420698
-      parent: 2
 - proto: Firelock
   entities:
   - uid: 129
@@ -766,8 +759,8 @@ entities:
       pos: -0.5,-5.5
       parent: 2
     - type: GasMixer
-      inletTwoConcentration: 0.71000004
-      inletOneConcentration: 0.29
+      inletTwoConcentration: 0.79
+      inletOneConcentration: 0.21
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasPassiveVent
@@ -1287,7 +1280,6 @@ entities:
   - uid: 22
     components:
     - type: Transform
-      rot: 3.141592653589793 rad
       pos: -0.5,2.5
       parent: 2
     - type: Fixtures
