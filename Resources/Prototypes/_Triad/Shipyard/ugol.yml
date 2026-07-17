@@ -11,7 +11,7 @@
   parent: BaseVessel
   name: PDM Ugol
   description: A personal small sized shuttle. Personal space has a price tag.
-  price: 16500
+  price: 12700
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Triad/Shuttles/ugol.yml

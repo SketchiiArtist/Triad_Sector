@@ -11,7 +11,7 @@
   parent: BaseVessel
   name: PDM Ruchka
   description: A small sized shuttle fit with an office, waiting room, and personal bedroom. Perfect for on-the-go attorneys!
-  price: 39000
+  price: 35640
   category: Small
   group: Shipyard
   shuttlePath: /Maps/_Triad/Shuttles/ruchka.yml

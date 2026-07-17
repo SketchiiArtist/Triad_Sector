@@ -11,7 +11,7 @@
   parent: BaseVessel
   name: PDM Povest
   description: A medium sized library shuttle, some books included.
-  price: 55000
+  price: 49920
   category: Medium
   group: Shipyard
   shuttlePath: /Maps/_Triad/Shuttles/povest.yml
