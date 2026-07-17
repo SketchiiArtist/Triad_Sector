@@ -1,5 +1,5 @@
 - type: entity
-  parent: [ClothingOuterStorageBase, ClothingFoldableBase]
+  parent: [ ClothingOuterStorageBase, ClothingFoldableBase ]
   id: ClothingOuterCoatRedSpotsJacket
   name: red spots bomber jacket
   description: A lightweight bomber jacket with spots on it to deter predators. Cute!
@@ -10,7 +10,7 @@
     sprite: _DEN/Clothing/OuterClothing/Coats/spots_jacket_red.rsi
 
 - type: entity
-  parent: [ClothingOuterStorageBase, ClothingFoldableBase]
+  parent: [ ClothingOuterStorageBase, ClothingFoldableBase ]
   id: ClothingOuterCoatBlueSpotsJacket
   name: blue spots bomber jacket
   description: A lightweight bomber jacket with spots on it to deter predators. Cute!
