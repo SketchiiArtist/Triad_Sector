@@ -2380,8 +2380,6 @@ entities:
       pos: -18.5,8.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
   - uid: 56
@@ -2397,8 +2395,6 @@ entities:
       pos: -21.5,8.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 60
       - 57
@@ -2409,8 +2405,6 @@ entities:
       pos: -24.5,6.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 60
       - 57
@@ -2421,8 +2415,6 @@ entities:
       pos: -22.5,8.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 60
       - 57
@@ -2442,8 +2434,6 @@ entities:
       pos: -24.5,16.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
 - proto: FloorDrain
@@ -3179,8 +3169,6 @@ entities:
       pos: -22.5,11.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeColor
@@ -3192,8 +3180,6 @@ entities:
       pos: -17.5,6.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeColor
@@ -3204,8 +3190,6 @@ entities:
       pos: -26.5,17.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeColor
@@ -3217,8 +3201,6 @@ entities:
       pos: -26.5,5.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeColor
@@ -3229,8 +3211,6 @@ entities:
       pos: -26.5,11.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeColor
@@ -3267,8 +3247,6 @@ entities:
       pos: -24.5,11.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeLayers
@@ -3282,8 +3260,6 @@ entities:
       pos: -17.5,5.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeLayers
@@ -3296,8 +3272,6 @@ entities:
       pos: -27.5,17.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeLayers
@@ -3310,8 +3284,6 @@ entities:
       pos: -26.5,7.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
     - type: AtmosPipeLayers
@@ -3325,8 +3297,6 @@ entities:
       pos: -27.5,9.5
       parent: 2
     - type: DeviceNetwork
-      configurators:
-      - invalid
       deviceLists:
       - 57
 - proto: GravityGeneratorMini
