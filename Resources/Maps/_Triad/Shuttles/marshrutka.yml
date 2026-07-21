@@ -790,7 +790,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 135
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 69
@@ -802,7 +801,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 135
-      - invalid
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GasVentScrubber
@@ -816,7 +814,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 135
-      - invalid
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
@@ -830,7 +827,6 @@ entities:
     - type: DeviceNetwork
       deviceLists:
       - 135
-      - invalid
     - type: AtmosPipeLayers
       pipeLayer: Secondary
     - type: AtmosPipeColor
