@@ -4,7 +4,7 @@ meta:
   engineVersion: 277.0.0
   forkId: ""
   forkVersion: ""
-  time: 07/15/2026 20:14:49
+  time: 07/28/2026 21:19:38
   entityCount: 658
 maps: []
 grids:
@@ -76,10 +76,10 @@ entities:
     - type: ThermalSignature
     - type: SpreaderGrid
       spreadQueues:
-        Puddle: []
-        MetalFoam: []
         Smoke: []
         Kudzu: []
+        Puddle: []
+        MetalFoam: []
     - type: Shuttle
       dampingModifier: 0.25
     - type: GridPathfinding
@@ -564,6 +564,18 @@ entities:
       - 331
       - 332
       - 330
+- proto: Airlock
+  entities:
+  - uid: 57
+    components:
+    - type: Transform
+      pos: 0.5,14.5
+      parent: 2
+  - uid: 181
+    components:
+    - type: Transform
+      pos: -1.5,21.5
+      parent: 2
 - proto: AirlockCargo
   entities:
   - uid: 184
@@ -647,20 +659,6 @@ entities:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: -3.5,14.5
-      parent: 2
-- proto: AirlockServiceLocked
-  entities:
-  - uid: 57
-    components:
-    - type: Transform
-      rot: -1.5707963267948966 rad
-      pos: 0.5,14.5
-      parent: 2
-  - uid: 181
-    components:
-    - type: Transform
-      rot: 1.5707963267948966 rad
-      pos: -1.5,21.5
       parent: 2
 - proto: AirlockShuttle
   entities:
